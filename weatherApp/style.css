@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+#search-container {
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+    width: 100%;
+}
+#search-container > input {
+    background-color: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 92%;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+#search-container > img {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    width: 8%;
+}
+
+
+#city-weather {
+    height: 180px;
+}
+
+
+#temp {
+    font-size: 72px;
+}
+
+
+#cityName{
+    font-size: 60px;
+    padding: 12px;
+}
+
+
+#humidity-wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#humidity-wind img{
+    width: 32px;
+}
+#humidity-logo-data, #wind-logo-data{
+    width: 50%;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+#humidity-logo-data > p, #wind-logo-data > p{
+    margin-left: 24px;
+}
+
+
